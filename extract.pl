@@ -11,7 +11,7 @@ my $filename = "/home/guest/Documents/PDB_/";
 open ($fh,"/home/akash/PDB_list.txt");
 
 
-$dbh=DBI->connect('DBI:mysql:DCCPS', 'root', 'Nittcse16');
+$dbh=DBI->connect('DBI:mysql:DCCPS', '', '');
 $k=0;
 	
 while (<$fh>)#Iterate for each PDB file
